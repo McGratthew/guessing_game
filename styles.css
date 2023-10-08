@@ -1,0 +1,71 @@
+body {
+  background-color: lightgrey;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+/* .form-center {
+  position: absolute;
+  transform: translate(0, -50%);
+  left: 40%;
+  top: 50%;
+} */
+
+form {
+    margin: 10px;
+    padding: 5px;
+}
+
+form > input {
+  font-size: x-large;
+}
+
+/* form > label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-wrapper {
+    border: solid black;
+    background: lightgrey;
+    margin: 40px auto;
+    max-width: 400px;
+    padding: 20px;
+} */
+
+button { 
+   font-size: x-large;
+}
+
+.hidden {
+  display: none;
+}
+
+.feedback {
+  font-size: xx-large;
+  padding: 3px;
+}
+
+.tooBig {
+  background-color: pink;
+  color: blue;
+}
+
+.tooSmall {
+  background-color: lightblue;
+  color: blue;
+}
+
+.tooMany {
+  background-color: red;
+  color: black;
+}
+
+.justRight {
+  background-color: lightgreen;
+  color: green;
+}
